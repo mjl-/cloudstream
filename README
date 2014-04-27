@@ -1,0 +1,11 @@
+for documentation, see https://godoc.org/bitbucket.org/mjl/cloudstream
+
+cloudstream is a simple tool store data in google cloud storage,
+by streaming data to it.  similarly, you can stream data from the
+google cloud storage.
+
+unlike with s3, not much code is involved, because google cloud
+storage supports receiving http requests with transfer-encoding:
+chunked.
+
+this code is in the public domain, written by mechiel lukkien, 2014.
